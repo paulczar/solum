@@ -1,0 +1,5 @@
+image: python:2
+script:
+- pip install tox==1.6.1
+- tox -e pep8 
+- tox -e py27
